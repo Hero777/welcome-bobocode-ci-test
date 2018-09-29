@@ -11,6 +11,6 @@ public class HelloRestController {
 
     @GetMapping
     public String hello(@RequestParam(name = "name", defaultValue = "Bobo") String name) {
-        return "<h1>Hello, " + name + " +</h1>";
+        return "<h1>Hello, " + name + "</h1>";
     }
 }
